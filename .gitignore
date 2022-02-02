@@ -27,3 +27,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+pcb/ecp5u85-bse-usb-backups
