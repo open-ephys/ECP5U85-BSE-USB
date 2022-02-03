@@ -1139,7 +1139,6 @@
   )
 
   (bus_alias "FT600" (members "DATA[0..15]" "BE[0..1]" "~{RXF}" "~{TXE}" "~{WR}" "FTCLK"))
-
   (junction (at 97.79 58.42) (diameter 0) (color 0 0 0 0)
     (uuid 02fd2fd5-bb41-4a33-bdac-310c187e9c8f)
   )
