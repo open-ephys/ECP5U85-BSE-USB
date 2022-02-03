@@ -1023,6 +1023,7 @@
   )
 
   (bus_alias "FT600" (members "DATA[0..15]" "BE[0..1]" "~{RXF}" "~{TXE}" "~{WR}" "FTCLK"))
+
   (junction (at 90.17 58.42) (diameter 0) (color 0 0 0 0)
     (uuid 02fd2fd5-bb41-4a33-bdac-310c187e9c8f)
   )
@@ -2810,7 +2811,7 @@
   (symbol (lib_id "power:+3.3V") (at 237.49 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2fe1d82e-cba9-46ce-8914-7d4e8ea4aab0)
-    (property "Reference" "#PWR?" (id 0) (at 237.49 137.16 0)
+    (property "Reference" "#PWR039" (id 0) (at 237.49 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 237.49 128.27 0))
@@ -3218,7 +3219,7 @@
   (symbol (lib_id "Device:R_US") (at 237.49 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 81d449d8-8395-4f7d-9083-51f37f826d50)
-    (property "Reference" "R?" (id 0) (at 240.03 137.1599 0)
+    (property "Reference" "R42" (id 0) (at 240.03 137.1599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (id 1) (at 240.03 139.6999 0)
