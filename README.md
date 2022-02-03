@@ -7,5 +7,6 @@
 ## TODO:
 - Add a clock chip (either LVDS or 2.5v single ended). Ideally 100MHz, but the FPGA has a PLL
 - Look for proper LED parts and adjust the resistors accordingly
+- Add protection to USB connector (using ECMF04 & ECMF02)
 - Review all the connections
 - Optionally, manage to connect bidirectional 3.3V FTDI WAKEUP line to free 2.5V FPGA pin with fixed clamp diodes.

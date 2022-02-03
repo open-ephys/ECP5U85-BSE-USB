@@ -5879,6 +5879,9 @@
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/60b4cb83-11af-4437-b6e0-3d51df340924"
       (reference "D10") (unit 1) (value "D_Schottky") (footprint "")
     )
+    (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/5a2a1e9f-02a5-4a72-8bb7-0ce1013bb8da"
+      (reference "D11") (unit 1) (value "D_Schottky") (footprint "")
+    )
     (path "/4c794b89-ec1c-4483-8190-5c24ac911c56"
       (reference "J1") (unit 1) (value "Conn_02x40_Odd_Even") (footprint "")
     )
@@ -6079,6 +6082,9 @@
     )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/6fdbc8ae-9ffe-4644-98a1-621ece38ca76"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/0524b1cf-bcf2-41b2-bf01-dc317e45c65e"
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/e0116973-93d5-4bf8-b97e-0981b11afa8a"
       (reference "U1") (unit 1) (value "LFE5U-85F-6BG381") (footprint "Package_BGA:Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD")
