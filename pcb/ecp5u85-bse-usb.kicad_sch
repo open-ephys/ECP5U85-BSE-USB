@@ -997,7 +997,7 @@
           (name "OE" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -7.62 -2.54 0) (length 2.54)
+        (pin power_out line (at -7.62 -2.54 0) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -4197,7 +4197,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 22.86 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2531e6f3-7b8e-4573-82c7-65b8b489ed2f)
-    (property "Reference" "R?" (id 0) (at 195.58 24.13 90))
+    (property "Reference" "R57" (id 0) (at 195.58 24.13 90))
     (property "Value" "DNP" (id 1) (at 201.93 24.13 90))
     (property "Footprint" "" (id 2) (at 198.374 21.844 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4247,7 +4247,7 @@
   (symbol (lib_id "Device:R_US") (at 147.32 20.32 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e62fb67-5691-4868-9df8-29b21153f0c3)
-    (property "Reference" "R?" (id 0) (at 144.78 21.59 90))
+    (property "Reference" "R55" (id 0) (at 144.78 21.59 90))
     (property "Value" "DNP" (id 1) (at 151.13 21.59 90))
     (property "Footprint" "" (id 2) (at 147.574 19.304 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4466,7 +4466,7 @@
   (symbol (lib_id "power:+2V5") (at 205.74 17.78 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4840610c-b6be-4e19-85ea-ad805e3d3d3e)
-    (property "Reference" "#PWR?" (id 0) (at 201.93 17.78 0)
+    (property "Reference" "#PWR086" (id 0) (at 201.93 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (id 1) (at 209.55 17.7799 90)
@@ -4484,7 +4484,7 @@
   (symbol (lib_id "Device:C") (at 182.88 25.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4909740b-341d-4706-b9b8-ce34e5275566)
-    (property "Reference" "C?" (id 0) (at 182.88 22.86 0)
+    (property "Reference" "C131" (id 0) (at 182.88 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (id 1) (at 182.88 27.94 0)
@@ -4706,7 +4706,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 17.78 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6608ee67-e53f-4db3-a883-c0a0f72e9187)
-    (property "Reference" "R?" (id 0) (at 194.31 16.51 90))
+    (property "Reference" "R56" (id 0) (at 194.31 16.51 90))
     (property "Value" "0" (id 1) (at 200.66 16.51 90))
     (property "Footprint" "" (id 2) (at 198.374 16.764 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4753,7 +4753,7 @@
   (symbol (lib_id "Device:C") (at 177.8 25.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6ab0fe63-f09c-490f-95f3-0cd35104f840)
-    (property "Reference" "C?" (id 0) (at 177.8 22.86 0)
+    (property "Reference" "C130" (id 0) (at 177.8 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (id 1) (at 177.8 27.94 0)
@@ -4806,7 +4806,7 @@
   (symbol (lib_id "ecp5u85-bse-usb:OSCILLATOR_DIFF") (at 151.13 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 763496f3-121d-476b-92ed-2928dd374644)
-    (property "Reference" "U?" (id 0) (at 151.13 33.02 0))
+    (property "Reference" "U10" (id 0) (at 151.13 33.02 0))
     (property "Value" "SiT9120AC-2C2-25E100.000000X" (id 1) (at 151.13 35.56 0))
     (property "Footprint" "" (id 2) (at 151.13 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4861,7 +4861,7 @@
   (symbol (lib_id "power:GND") (at 182.88 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 83d4ad53-d443-46e1-9d81-ab90833c2c63)
-    (property "Reference" "#PWR?" (id 0) (at 182.88 38.1 0)
+    (property "Reference" "#PWR085" (id 0) (at 182.88 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 185.42 33.0199 0)
@@ -5026,7 +5026,7 @@
   (symbol (lib_id "Device:C") (at 187.96 25.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a48b2080-8987-4ffd-832f-ec1eaf4b8923)
-    (property "Reference" "C?" (id 0) (at 187.96 22.86 0)
+    (property "Reference" "C132" (id 0) (at 187.96 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (id 1) (at 187.96 27.94 0)
@@ -5166,7 +5166,7 @@
   (symbol (lib_id "power:+3V3") (at 205.74 22.86 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dc950138-6c28-4005-aa75-454f9ffe17c5)
-    (property "Reference" "#PWR?" (id 0) (at 201.93 22.86 0)
+    (property "Reference" "#PWR087" (id 0) (at 201.93 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 209.55 22.8599 90)
@@ -5200,7 +5200,7 @@
   (symbol (lib_id "power:GND") (at 140.97 30.48 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid df0ebd3b-9663-4b1a-a601-a7786f15999a)
-    (property "Reference" "#PWR?" (id 0) (at 134.62 30.48 0)
+    (property "Reference" "#PWR084" (id 0) (at 134.62 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 133.35 30.48 90)
@@ -5234,7 +5234,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 160.02 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3e79ab3-3ac6-45da-9fd8-9391667738c6)
-    (property "Reference" "#FLG?" (id 0) (at 160.02 18.415 0)
+    (property "Reference" "#FLG01" (id 0) (at 160.02 18.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 160.02 15.24 0))
@@ -5568,6 +5568,9 @@
   )
 
   (symbol_instances
+    (path "/e3e79ab3-3ac6-45da-9fd8-9391667738c6"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/033d1a03-0224-4be7-bf03-d823040c5124/e7b81188-d5b1-45b6-802a-c5e15290724c"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -5585,9 +5588,6 @@
     )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/c0d1ca71-af60-455d-b30a-b4baca1c25b8"
       (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/e3e79ab3-3ac6-45da-9fd8-9391667738c6"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/f1efb15c-659a-4f46-a1e2-00583fbf7e18"
       (reference "#PWR01") (unit 1) (value "+5V") (footprint "")
@@ -5838,6 +5838,18 @@
     (path "/0d9a5925-3677-4baf-8c3e-88d6199b0d1b/1656f844-6ae9-4fbb-a6a1-1c34d6491f07"
       (reference "#PWR083") (unit 1) (value "GND") (footprint "")
     )
+    (path "/df0ebd3b-9663-4b1a-a601-a7786f15999a"
+      (reference "#PWR084") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/83d4ad53-d443-46e1-9d81-ab90833c2c63"
+      (reference "#PWR085") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4840610c-b6be-4e19-85ea-ad805e3d3d3e"
+      (reference "#PWR086") (unit 1) (value "+2V5") (footprint "")
+    )
+    (path "/dc950138-6c28-4005-aa75-454f9ffe17c5"
+      (reference "#PWR087") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/f8db7611-6744-489f-b566-226cb154f69c"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -5975,18 +5987,6 @@
     )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/0e994447-7d27-4210-a8a4-710e36e346e9"
       (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4840610c-b6be-4e19-85ea-ad805e3d3d3e"
-      (reference "#PWR?") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/83d4ad53-d443-46e1-9d81-ab90833c2c63"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/dc950138-6c28-4005-aa75-454f9ffe17c5"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/df0ebd3b-9663-4b1a-a601-a7786f15999a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/033d1a03-0224-4be7-bf03-d823040c5124/71521d47-d3a3-467c-b9fc-ee021a2aa1a9"
       (reference "C1") (unit 1) (value "10nF") (footprint "")
@@ -6375,14 +6375,14 @@
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/9e16d17e-902c-47ea-a28c-ca77e785a7ca"
       (reference "C129") (unit 1) (value "100n") (footprint "")
     )
-    (path "/4909740b-341d-4706-b9b8-ce34e5275566"
-      (reference "C?") (unit 1) (value "1u") (footprint "")
-    )
     (path "/6ab0fe63-f09c-490f-95f3-0cd35104f840"
-      (reference "C?") (unit 1) (value "100n") (footprint "")
+      (reference "C130") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/4909740b-341d-4706-b9b8-ce34e5275566"
+      (reference "C131") (unit 1) (value "1u") (footprint "")
     )
     (path "/a48b2080-8987-4ffd-832f-ec1eaf4b8923"
-      (reference "C?") (unit 1) (value "10u") (footprint "")
+      (reference "C132") (unit 1) (value "10u") (footprint "")
     )
     (path "/0d9a5925-3677-4baf-8c3e-88d6199b0d1b/c33df375-2f90-45cf-ae00-c26362646f5f"
       (reference "D1") (unit 1) (value "2A") (footprint "")
@@ -6612,14 +6612,14 @@
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/644bc752-376f-4806-81c3-01a41651ba7e"
       (reference "R54") (unit 1) (value "R_US") (footprint "")
     )
-    (path "/2531e6f3-7b8e-4573-82c7-65b8b489ed2f"
-      (reference "R?") (unit 1) (value "DNP") (footprint "")
-    )
     (path "/2e62fb67-5691-4868-9df8-29b21153f0c3"
-      (reference "R?") (unit 1) (value "DNP") (footprint "")
+      (reference "R55") (unit 1) (value "DNP") (footprint "")
     )
     (path "/6608ee67-e53f-4db3-a883-c0a0f72e9187"
-      (reference "R?") (unit 1) (value "0") (footprint "")
+      (reference "R56") (unit 1) (value "0") (footprint "")
+    )
+    (path "/2531e6f3-7b8e-4573-82c7-65b8b489ed2f"
+      (reference "R57") (unit 1) (value "DNP") (footprint "")
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/35de3d0a-9421-4407-a409-3752ea1d7831"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
@@ -6691,7 +6691,7 @@
       (reference "U9") (unit 1) (value "ECMF04-4HSWM10") (footprint "")
     )
     (path "/763496f3-121d-476b-92ed-2928dd374644"
-      (reference "U?") (unit 1) (value "SiT9120AC-2C2-25E100.000000X") (footprint "")
+      (reference "U10") (unit 1) (value "SiT9120AC-2C2-25E100.000000X") (footprint "")
     )
     (path "/0d9a5925-3677-4baf-8c3e-88d6199b0d1b/e633dcce-c429-4e08-91cd-69533e8cfa17"
       (reference "Y1") (unit 1) (value "30MHz") (footprint "")
