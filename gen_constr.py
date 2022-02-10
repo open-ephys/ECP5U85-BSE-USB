@@ -20,11 +20,11 @@ opts = (
     (('[LU]DQS_p'),'SSTL15_I','SLEWRATE=FAST','DIFFRESISTOR=100'), #RAM DQS
     (('DATA\[\d+\]','BE\[\d\]', 'WRn', 'FTCLK', 'S1\[\d\]'),'LVCMOS33'), #FTDI inouts, outs and clock
     (('RXFn','TXEn', 'GPIO\[0\]'),'LVCMOS33','CLAMP=OFF'), #FTDI inputs
-    (('S0\[\d\]', 'FT_WAKEUPn'),'LVCMOS33','CLAMP=OFF','OPENDRAIN=ON'),
-    (('D[23]IO_p\[\d\]'),'LVDS'),
-    (('D[23]I_p\[\d\]', 'CLK100_p'),'LVDS','DIFFRESISTOR=100'),
-    (('LED\[\d\]', 'FT_RSTreqn'),'LVCMOS25'),
-    (('D6IO?_p\[\d\]','S[68]\[\d\]','FD\[\d\]','FMISO','FMOSI','FCSn','FPGA_RESETrqn'),'LVCMOS33')
+    (('S0\[\d\]', 'WAKEUPn'),'LVCMOS33','CLAMP=OFF','OPENDRAIN=ON'),
+    (('D[236]IO_p\[\d\]'),'LVDS'),
+    (('D[236]I_p\[\d\]', 'CLK100_p'),'LVDS','DIFFRESISTOR=100'),
+    (('S8\[\d\]', 'LED\[\d\]', 'FT_RSTreqn'),'LVCMOS25'),
+    (('S8\[\d\]','FD\[\d\]','FMISO','FMOSI','FCSn','FPGA_RESETrqn'),'LVCMOS33')
     
     )
 
