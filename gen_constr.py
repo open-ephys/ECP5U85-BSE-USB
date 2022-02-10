@@ -12,19 +12,20 @@ outputfile = "balls.lpf" #output file
 partname = "U1" #part number in schematic
 
 #nets that do not need to be in the LPF file (e.g.: power)
-nonets = ('GND', '(?:\+|-)\d+V\d*', '[\+-]\d+\.\d+V', '.*VCC.*', '.*VREF.*', '.*VDD.*', '/DONE', '/\~\{INIT\}', 'FCLK', '.+-')
+nonets = ('GND', '(?:\+|-)\d+V\d*', '[\+-]\d+\.\d+V', '.*VCC.*', '.*VREF.*', '.*VDD.*', '/DONE', '/\~\{INIT\}', '/*(?:.+/)*FCLK', 'CLK100_n','.+-')
 
 #options for nets. Each tuple contains: nets that should match, io type, (optional) different extra parameters
 opts = (
-    (('A\[\d+\]','DQ\[\d+\]','BA\[\d+\]','[LU]DM', 'ODT', 'RASn','CASn','MEM_RESETn','CSn','WEn','CK_p','CKE'),'SSTL15_I','SLEWRATE=FAST'), #RAM
-    (('[LU]DQS_p'),'SSTL15_I','SLEWRATE=FAST','DIFFRESISTOR=100'), #RAM DQS
-    (('DATA\[\d+\]','BE\[\d\]', 'WRn', 'FTCLK', 'S1\[\d\]'),'LVCMOS33'), #FTDI inouts, outs and clock
-    (('RXFn','TXEn', 'GPIO\[0\]'),'LVCMOS33','CLAMP=OFF'), #FTDI inputs
-    (('S0\[\d\]', 'WAKEUPn'),'LVCMOS33','CLAMP=OFF','OPENDRAIN=ON'),
-    (('D[236]IO_p\[\d\]'),'LVDS'),
-    (('D[236]I_p\[\d\]', 'CLK100_p'),'LVDS','DIFFRESISTOR=100'),
-    (('S8\[\d\]', 'LED\[\d\]', 'FT_RSTreqn'),'LVCMOS25'),
-    (('S8\[\d\]','FD\[\d\]','FMISO','FMOSI','FCSn','FPGA_RESETrqn'),'LVCMOS33')
+    (('A\[\d+\]','DQ\[\d+\]','BA\[\d+\]','[LU]DM', 'ODT', 'RASn','CASn','MEM_RESETn','CSn','WEn','CKE'),'SSTL135_I','SLEWRATE=FAST'), #RAM
+    (('CK_p'),'SSTL135D_I','SLEWRATE=FAST'),
+    (('[LU]DQS_p'),'SSTL135D_I','SLEWRATE=FAST','DIFFRESISTOR=100'), #RAM DQS
+    (('DATA\[\d+\]','BE\[\d+\]', 'WRn', 'FTCLK', 'S1\[\d+\]'),'LVCMOS33'), #FTDI inouts, outs and clock
+    (('RXFn','TXEn', 'GPIO\[0\]'),'LVCMOS33','CLAMP=OFF','PULLMODE=NONE'), #FTDI inputs
+    (('S0\[\d+\]', 'WAKEUPn'),'LVCMOS33','CLAMP=OFF','OPENDRAIN=ON'),
+    (('D[236]IO_p\[\d+\]'),'LVDS'),
+    (('D[236]I_p\[\d+\]', 'CLK100_p'),'LVDS','DIFFRESISTOR=100'),
+    (('S6\[\d+\]', 'LED\[\d+\]', 'FT_RSTreqn'),'LVCMOS25'),
+    (('S8\[\d+\]','FD\[\d+\]','FMISO','FMOSI','FCSn','FPGA_RESETrqn'),'LVCMOS33')
     
     )
 
@@ -44,7 +45,7 @@ def sanitize(port):
         net = '{pre}{sub}[{idx}]'.format(pre = val[1],sub = val[3],idx = val[2])
     elif val := re.match('(S\d)(\d+)',net):
         net = '{pre}[{idx}]'.format(pre = val[1], idx = val[2])
-    elif val := re.match('(\D+)(\d+)',net):
+    elif val := re.fullmatch('(\D+)(\d+)',net):
         net = '{pre}[{idx}]'.format(pre = val[1], idx = val[2])
         
     return(net, ball)
@@ -64,6 +65,7 @@ def main():
             
     antimatches = '(?:{0})'.format('|'.join(nonets))
     nets = [ sanitize(x) for x in part if (type(x) is list and len(x) == 2 and not re.fullmatch(antimatches,x[1].tosexp(),flags=re.IGNORECASE)) ]
+    nets.sort(key= lambda n: n[0]);
     
     file = open(outputfile,"w")
     for ball in nets:
