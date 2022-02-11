@@ -6499,10 +6499,10 @@
       (reference "R16") (unit 1) (value "10K") (footprint "")
     )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/eb64f58b-0040-409d-85ef-504ec7b80f1c"
-      (reference "R17") (unit 1) (value "R_US") (footprint "")
+      (reference "R17") (unit 1) (value "DNP") (footprint "")
     )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/4b9bdab7-1af9-4168-9713-6962ef84d281"
-      (reference "R18") (unit 1) (value "R_US") (footprint "")
+      (reference "R18") (unit 1) (value "0") (footprint "")
     )
     (path "/a464db55-5b27-4f29-8a3f-72ce36f6827c"
       (reference "R19") (unit 1) (value "4.7k") (footprint "")

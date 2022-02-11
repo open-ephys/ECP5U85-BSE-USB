@@ -845,9 +845,9 @@
   )
 
   (bus_alias "DQ_{L}" (members "DQ0" "DQ1" "DQ2" "DQ3" "DQ4" "DQ5" "DQ6" "DQ7" "LDM" "LDQS+" "LDQS-"))
+  (bus_alias "RAMADDR" (members "A0" "A1" "A2" "A3" "A4" "A5" "A6" "A7" "A8" "A9" "A10" "A11" "A12" "BA0" "BA1" "BA2"))
   (bus_alias "DQ_{U}" (members "DQ8" "DQ9" "DQ10" "DQ11" "DQ12" "DQ13" "DQ14" "DQ15" "UDM" "UDQS+" "UDQS-"))
   (bus_alias "RAMCTRL" (members "ODT" "CKE" "CK+" "CK-" "~{MEM_RESET}" "~{CS}" "~{CAS}" "~{RAS}" "~{WE}"))
-  (bus_alias "RAMADDR" (members "A0" "A1" "A2" "A3" "A4" "A5" "A6" "A7" "A8" "A9" "A10" "A11" "A12" "BA0" "BA1" "BA2"))
   (junction (at 158.75 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 013f5eec-f2d0-4b50-a71b-ff3e2a66c7a3)
   )
@@ -2371,6 +2371,11 @@
     (uuid ff3964e9-1456-4d0a-bd23-a1e5c0d93d67)
   )
 
+  (text "We might need care with these chokes\nRAM can require 200-300mA at some moments"
+    (at 139.065 19.685 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 37fd817e-2e40-41c5-a070-f7cb5293c7ea)
+  )
   (text "NB: Caps near DDR3 chip" (at 245.11 64.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4ddcee61-2c9a-44bd-9638-4018f25d7d97)
