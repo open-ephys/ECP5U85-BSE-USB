@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name "jonnew")(type "KiCad")(uri "${KIPRJMOD}/../jonnew-lbr/kicad/symbols/jonnew.kicad_sym")(options "")(descr ""))
   (lib (name "ecp5u85-bse-usb")(type "KiCad")(uri "${KIPRJMOD}/ecp5u85-bse-usb.kicad_sym")(options "")(descr ""))
 )
