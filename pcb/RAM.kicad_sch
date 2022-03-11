@@ -849,6 +849,7 @@
   (bus_alias "RAMADDR" (members "RAM_A0" "RAM_A1" "RAM_A2" "RAM_A3" "RAM_A4" "RAM_A5" "RAM_A6" "RAM_A7" "RAM_A8" "RAM_A9" "RAM_A10" "RAM_A11" "RAM_A12" "RAM_BA0" "RAM_BA1" "RAM_BA2"))
   (bus_alias "RAMCTRL" (members "RAM_ODT" "RAM_CKE" "RAM_CK+" "RAM_CK-" "~{RAM_RESET}" "~{RAM_CS}" "~{RAM_CAS}" "~{RAM_RAS}" "~{RAM_WE}"))
   (bus_alias "DQ_{U}" (members "RAM_DQ8" "RAM_DQ9" "RAM_DQ10" "RAM_DQ11" "RAM_DQ12" "RAM_DQ13" "RAM_DQ14" "RAM_DQ15" "RAM_UDM" "RAM_UDQS+" "RAM_UDQS-"))
+
   (junction (at 144.78 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 03697fac-d5e4-49b6-a23b-61cad71f8491)
   )

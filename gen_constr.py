@@ -16,12 +16,12 @@ nonets = ('GND', '(?:\+|-)\d+V\d*', '[\+-]\d+\.\d+V', '.*VCC.*', '.*VREF.*', '.*
 
 #options for nets. Each tuple contains: nets that should match, io type, (optional) different extra parameters
 opts = (
-    (('A\[\d+\]','DQ\[\d+\]','BA\[\d+\]','[LU]DM', 'ODT', 'RASn','CASn','MEM_RESETn','CSn','WEn','CKE'),'SSTL135_I','SLEWRATE=FAST'), #RAM
-    (('CK_p'),'SSTL135D_I','SLEWRATE=FAST'),
-    (('[LU]DQS_p'),'SSTL135D_I','SLEWRATE=FAST','DIFFRESISTOR=100'), #RAM DQS
-    (('DATA\[\d+\]','BE\[\d+\]', 'WRn', 'FTCLK', 'S1\[\d+\]'),'LVCMOS33'), #FTDI inouts, outs and clock
-    (('RXFn','TXEn', 'GPIO\[0\]'),'LVCMOS33','CLAMP=OFF','PULLMODE=NONE'), #FTDI inputs
-    (('S0\[\d+\]', 'WAKEUPn'),'LVCMOS33','CLAMP=OFF','OPENDRAIN=ON'),
+    (('RAM_A\[\d+\]','RAM_DQ\[\d+\]','RAM_BA\[\d+\]','RAM_[LU]DM', 'RAM_ODT', 'RAM_RASn','RAM_CASn','RAM_RESETn','RAM_CSn','RAM_WEn','RAM_CKE'),'SSTL135_I','SLEWRATE=FAST'), #RAM
+    (('RAM_CK_p'),'SSTL135D_I','SLEWRATE=FAST'),
+    (('RAM_[LU]DQS_p'),'SSTL135D_I','SLEWRATE=FAST','DIFFRESISTOR=100'), #RAM DQS
+    (('FT_DATA\[\d+\]','FT_BE\[\d+\]', 'FT_WRn', 'FT_CLK', 'S1\[\d+\]'),'LVCMOS33'), #FTDI inouts, outs and clock
+    (('FT_RXFn','FT_TXEn', 'GPIO\[0\]'),'LVCMOS33','CLAMP=OFF','PULLMODE=NONE'), #FTDI inputs
+    (('S0\[\d+\]', 'FT_WAKEUPn'),'LVCMOS33','CLAMP=OFF','OPENDRAIN=ON'),
     (('D[236]IO_p\[\d+\]'),'LVDS'),
     (('D[236]I_p\[\d+\]', 'CLK100_p'),'LVDS','DIFFRESISTOR=100'),
     (('S6\[\d+\]', 'LED\[\d+\]', 'FT_RSTreqn'),'LVCMOS25'),
