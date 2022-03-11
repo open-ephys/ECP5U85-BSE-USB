@@ -924,11 +924,11 @@
           (name "DATA_12" (effects (font (size 1.27 1.27))))
           (number "53" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 27.94 -13.97 180) (length 3.81)
+        (pin bidirectional line (at 27.94 -11.43 180) (length 3.81)
           (name "DATA_13" (effects (font (size 1.27 1.27))))
           (number "54" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 27.94 -11.43 180) (length 3.81)
+        (pin bidirectional line (at 27.94 -13.97 180) (length 3.81)
           (name "DATA_14" (effects (font (size 1.27 1.27))))
           (number "55" (effects (font (size 1.27 1.27))))
         )
@@ -1333,7 +1333,6 @@
   )
 
   (bus_alias "FT600" (members "FT_DATA[0..15]" "FT_BE[0..1]" "~{FT_RXF}" "~{FT_TXE}" "~{FT_WR}" "FT_CLK"))
-
   (junction (at 128.27 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 02fd2fd5-bb41-4a33-bdac-310c187e9c8f)
   )
