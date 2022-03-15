@@ -3197,6 +3197,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f783f21c-be4d-4f72-b037-e5961fa02dee)
   )
+  (text "Even pins 32-74 are not really used in the acq. board\n(32 & 34 for daisy chain conn. 74 to gnd. Others to breakout section)\nSo they can be moved freely. \n\nIf you change differential IO locations, make sure that swaps happen between I vs. IO types. I can be swapped with I and IO with IO but not between."
+    (at 17.78 -15.24 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fd0740ae-622e-4296-98c9-4db6a282eaad)
+  )
 
   (label "D2IO7-" (at 38.1 124.46 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -5011,12 +5016,6 @@
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/a6521404-6cfd-4ad4-b208-dc50164c9ef1"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/f5708ce6-44be-4a9d-a945-68ba4d9a2b18"
-      (reference "C2") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/087d99fd-f9ef-4815-af7f-587c0104acbf"
-      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/318ccd14-3fc7-4585-99cf-7409bc51fcc3"
       (reference "C4") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
