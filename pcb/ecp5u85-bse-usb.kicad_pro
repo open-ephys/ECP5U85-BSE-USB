@@ -78,7 +78,7 @@
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
@@ -128,7 +128,10 @@
         0.2,
         0.3,
         0.4,
-        0.5
+        0.5,
+        0.6,
+        0.7,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -404,10 +407,6 @@
         "microvia_drill": 0.4,
         "name": "Power",
         "nets": [
-          "+1V1",
-          "+2V5",
-          "+3V3",
-          "+5V",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -664,9 +663,9 @@
       {
         "bus_width": 12.0,
         "clearance": 0.09,
-        "diff_pair_gap": 0.175,
+        "diff_pair_gap": 0.09,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.196,
+        "diff_pair_width": 0.16,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.2,

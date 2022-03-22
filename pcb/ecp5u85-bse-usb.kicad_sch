@@ -4914,7 +4914,7 @@
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/d0533635-9b94-4069-8297-765bea9bd31d"
       (reference "#PWR089") (unit 1) (value "GND") (footprint "")
     )
-    (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/9dd4ac4f-c2a8-4507-91b4-bef8b5a73161"
+    (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/c0859495-c652-45e9-a63d-1c7bb60075d7"
       (reference "#PWR090") (unit 1) (value "GND") (footprint "")
     )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/e14d4048-086d-4731-808c-c9c062fdb4e6"
@@ -5024,6 +5024,9 @@
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/7a4772bf-5df9-4454-94a8-f46a4d162732"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/a48ff0b9-bf56-434f-b2db-8aff34d5bae1"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/a6521404-6cfd-4ad4-b208-dc50164c9ef1"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -5235,6 +5238,9 @@
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/ea083b97-5668-4003-965c-c4d6b7b7f2bf"
       (reference "C70") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/a36fff4a-3c91-470a-83f7-64c053b9ad45"
+      (reference "C71") (unit 1) (value "100u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder")
+    )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/390d8ea3-a4c5-4cec-ab08-91a7aa67afec"
       (reference "C72") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -5325,7 +5331,7 @@
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/4fa400e1-e17c-4dd9-9370-ba68b43beda3"
       (reference "C101") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/b3c70a33-b1c0-4259-84a9-864f968a1d79"
+    (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/c2cdefa1-f1ad-46a2-8895-918b113b977c"
       (reference "C102") (unit 1) (value "100u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder")
     )
     (path "/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9/7d96e881-69c3-4305-a785-1bc89b521491"
