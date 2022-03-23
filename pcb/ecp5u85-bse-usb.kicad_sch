@@ -5443,7 +5443,7 @@
       (reference "D7") (unit 1) (value "LED_GREEN") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/60b4cb83-11af-4437-b6e0-3d51df340924"
-      (reference "D8") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_0402_1005Metric")
+      (reference "D8") (unit 1) (value "PMEG3030EP,115") (footprint "Diode_SMD:D_SOD-128")
     )
     (path "/b14c35da-dd14-4b8d-93a9-00f219a92f41/5a2a1e9f-02a5-4a72-8bb7-0ce1013bb8da"
       (reference "D9") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_0402_1005Metric")
