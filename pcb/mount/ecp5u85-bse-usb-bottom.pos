@@ -1,4 +1,4 @@
-### Module positions - created on Thu Mar 24 10:06:23 2022 ###
+### Module positions - created on Mon Mar 28 06:29:22 2022 ###
 ### Printed by Pcbnew version (6.0.0)
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -109,6 +109,7 @@ C128      22p               C_0402_1005Metric                                  -
 C129      10p               C_0402_1005Metric                                  -38.5128    23.5020  180.0000  bottom
 C131      22p               C_0402_1005Metric                                  -38.5128    16.3920  180.0000  bottom
 D8        PMEG3030EP,115    D_SOD-128                                          -29.0328    65.2320  180.0000  bottom
+D9        PMEG3030EP,115    D_SOD-128                                          -37.2000    67.5000  -90.0000  bottom
 D10       PMEG3030EP,115    D_SOD-128                                          -22.7928     8.5920  -90.0000  bottom
 J1        BSE-040-01-X-D-A  SAMTEC_BSE-040-01-X-D-A                             -4.9928    49.4920   90.0000  bottom
 J2        BSE-040-01-X-D-A  SAMTEC_BSE-040-01-X-D-A                            -44.9928    49.4920   90.0000  bottom
