@@ -6181,7 +6181,7 @@
     (in_bom yes) (on_board yes)
     (uuid 958441bc-7a54-4833-9b69-16397b5cecb1)
     (property "Reference" "R43" (id 0) (at 149.86 162.56 90))
-    (property "Value" "375k" (id 1) (at 149.86 167.64 90))
+    (property "Value" "357k" (id 1) (at 149.86 167.64 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 150.114 164.084 90)
       (effects (font (size 1.27 1.27)) hide)
     )
