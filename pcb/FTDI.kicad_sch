@@ -7,7 +7,7 @@
   (title_block
     (title "ECP5U85-BSE-USB Breakout Board")
     (date "2022-02-02")
-    (rev "A")
+    (rev "B")
     (company "OEPS & Open Ephys, Inc.")
     (comment 1 "Jonathan Newman")
     (comment 2 "Aarón Cuevas López")
@@ -2934,7 +2934,7 @@
     (uuid ffaa6cc5-2391-415c-8b82-3726e504ae43)
   )
 
-  (text "DNP by now\nWe should not need to reset the FTDI\nbut having space in the PCB in case\nit were needed is rarely bad"
+  (text "DNP\nWe should not need to reset the FTDI\nbut having space in the PCB in case\nit were needed is rarely bad"
     (at 20.32 163.83 0)
     (effects (font (size 0.9 0.9)) (justify left bottom))
     (uuid 6b8fd32a-a06e-453a-bacd-87a297e25b9c)
@@ -3379,7 +3379,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 46.99 148.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 21ae10fa-a0fc-440b-92c2-67927fa8ac8e)
-    (property "Reference" "Q1" (id 0) (at 53.34 147.3199 0)
+    (property "Reference" "Q1" (id 0) (at 45.72 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NMOS_GSD" (id 1) (at 35.56 143.51 0)

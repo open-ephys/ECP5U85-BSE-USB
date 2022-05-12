@@ -7,7 +7,7 @@
   (title_block
     (title "ECP5U85-BSE-USB Breakout Board")
     (date "2022-02-02")
-    (rev "A")
+    (rev "B")
     (company "OEPS & Open Ephys, Inc.")
     (comment 1 "Jonathan Newman")
     (comment 2 "Aarón Cuevas López")

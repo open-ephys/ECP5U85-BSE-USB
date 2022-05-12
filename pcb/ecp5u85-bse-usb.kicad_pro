@@ -55,18 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|183002783|126512422|23edaf46-da92-4a44-a0cd-ba47a7f20b56|89dc52c4-4726-4239-8c4d-51d4dff25419",
-        "copper_edge_clearance|183992841|51683000|1cae5bd2-bb87-4b97-85fe-a9798a6a6321|03d67880-ccac-441a-9fb0-2f92afe583f9",
-        "copper_edge_clearance|207910341|126183000|5aaab9c0-5fb1-4635-bdb0-ddc2440bbc46|09227011-5c5b-4e9b-9552-3afede49eb68",
-        "copper_edge_clearance|208462841|126183000|5aaab9c0-5fb1-4635-bdb0-ddc2440bbc46|8ed3ffc6-dcac-45c6-bf1a-0597a2b2dcad",
-        "copper_edge_clearance|210862841|126183000|5aaab9c0-5fb1-4635-bdb0-ddc2440bbc46|258c80b7-b69b-4a83-b6d9-725cc997b0e4",
-        "copper_edge_clearance|213712841|126183000|5aaab9c0-5fb1-4635-bdb0-ddc2440bbc46|bb6fe1c9-daf9-447c-ad0c-700b5a8127f9",
-        "copper_edge_clearance|216212841|126183000|5aaab9c0-5fb1-4635-bdb0-ddc2440bbc46|966e86aa-261c-4d5d-b0e2-e3226322f352",
-        "copper_edge_clearance|219885341|126183000|5aaab9c0-5fb1-4635-bdb0-ddc2440bbc46|20adf684-7a0e-423d-9c09-13472fb6268f",
-        "copper_edge_clearance|227992841|126683000|5aaab9c0-5fb1-4635-bdb0-ddc2440bbc46|e2850aa2-d877-40ff-b710-180bb4bbc8b0",
-        "copper_edge_clearance|228982899|51853578|1139155c-d7a2-4ed0-b427-929cf07e225c|13e57ac8-a2b3-458c-ae4d-6b3e80331df5"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -827,7 +816,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
