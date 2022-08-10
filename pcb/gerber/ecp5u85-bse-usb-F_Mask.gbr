@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
-%TF.CreationDate,2022-04-21T06:05:03-07:00*%
-%TF.ProjectId,ecp5u85-bse-usb,65637035-7538-4352-9d62-73652d757362,A*%
+%TF.CreationDate,2022-08-10T17:12:35-04:00*%
+%TF.ProjectId,ecp5u85-bse-usb,65637035-7538-4352-9d62-73652d757362,B*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-04-21 06:05:03*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-08-10 17:12:35*
 %MOMM*%
 %LPD*%
 G01*
